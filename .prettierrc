@@ -1,0 +1,29 @@
+{
+  "bracketSameLine": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "jsxSingleQuote": false,
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
+      }
+    },
+    {
+      "files": "*.sol",
+      "options": {
+        "parser": "solidity-parse"
+      }
+    }
+  ],
+  "plugins": [
+    "prettier-plugin-astro",
+    "prettier-plugin-solidity",
+    "prettier-plugin-tailwindcss"
+  ],
+  "printWidth": 79,
+  "singleAttributePerLine": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "vueIndentScriptAndStyle": true
+}
